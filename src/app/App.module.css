@@ -1,0 +1,24 @@
+.appWrapper {
+  display: grid;
+  margin: 0 auto;
+  width: 1200px;
+  grid-template-areas:
+    "h"
+    "n"
+    "c";
+  grid-template-columns: auto;
+  grid-template-rows: 80px auto;
+}
+
+.appWrapper__content {
+  grid-area: c;
+  background-color: #fff;
+  border-style: ridge;
+  border-color: #0575e6;
+  border-radius: 0 0 25px 25px;
+  border-width: 10px;
+  font: 16pt "Sherif";
+  font-weight: bold;
+  text-align: center;
+  color: #0d7068;
+}

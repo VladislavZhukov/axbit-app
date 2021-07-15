@@ -1,0 +1,34 @@
+.navBar {
+  grid-area: n;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #11998e;
+  color: #fff;
+  border-radius: 25px 25px 0 0;
+}
+
+.navBar__container {
+  overflow: hidden;
+  width: 200px;
+}
+.navBar__box {
+  white-space: nowrap;
+}
+
+.navBar__box div {
+  width: 90px;
+  display: inline-block;
+  font: 14pt "Serif";
+}
+
+.navBar__box a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navBar__box a:active {
+  color: crimson;
+}
